@@ -69,4 +69,16 @@ body {
     top: 20%;
   }
 }
+
+@media screen and (max-height: 20em) {
+  .main_heading {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  .main_heading {
+    font-size: 2em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
