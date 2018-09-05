@@ -56,3 +56,11 @@ body{
     height: 2em;
     width: 2em;
 }
+
+
+
+@media screen and (max-height:350px) {
+    .spotify_logo {
+        top: 20%;
+    }
+}
