@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #6b6a6a;
+  background-image: url(../images/dalli_background.jpg);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_heading {
+  letter-spacing: 1em;
+  font-size: 6vw;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.spotify_logo {
+  position: absolute;
+  height: 10em;
+  width: auto;
+  left: 15%;
+  top: 40%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  height: 80px;
+  min-width: 100%;
+  bottom: 0;
+}
+
+.footer_logo {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  height: 2em;
+  width: 2em;
+}
+/*# sourceMappingURL=main.css.map */
